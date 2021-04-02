@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#202124;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+.logo{
+    width:50px;
+    height:50px;
+    margin-left: auto;
+    border: none;
+    border-radius: 50px;
+}
+ul{
+    list-style: none;
+}
+
+
+ul li {
+    display: inline-block; /*keeps them on the same row*/
+    padding: 5px;
+ }
+ul li a{
+    text-decoration: none;
+    color: oldlace;
+ }
+
+button{
+    cursor: pointer;
+    background-color: rgba(107, 35, 107,1);
+    border: none;
+    border-radius: 50px; /* changes the shape of the border*/
+    padding:15px;
+    margin: 5px;
+    
+}
+button:hover{
+    background-color: rgba(105, 31, 82,1);
+}
+a:hover{
+    color: rgba(105, 31, 82,1);
+}
+.main-pic{
+    display: block; /*the img won't be centerd otherwise*/
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 50px;
+    border: 5px black solid;
+
+}
+article p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:darkgray;
+    padding: 15px;
+
+}
+article h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color:darkgray;
+    text-align: center;
+    padding: 15px;
+}
+article{
+    width:68%;
+    float: left;
+    margin-left:2%;
+    background-color:#1a1b1d;
+    padding: 15px;
+}
+.aside-links{
+    display: block;
+    padding: 15px;
+
+}
+aside{
+    
+    width: 28%;
+    float: right;
+    margin-right:1%;
+    background-color:#1a1b1d;
+}
+article div div{
+    height:5%;
+    width: 160px;
+    border: black solid 5px;
+    margin: 5px;
+}
+
+article div div img {
+    height: 150px;
+    width: 150px;
+}
+article div div  p {
+    font-weight:500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 80%;
+}
+article div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
