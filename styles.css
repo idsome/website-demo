@@ -10,8 +10,8 @@ body{
 
 header{
     display: flex;
-    justify-content:space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 30px 5%;
 }
 .logo{
@@ -26,7 +26,7 @@ ul{
 }
 
 
-ul li {
+.main-links{
     display: inline-block; /*keeps them on the same row*/
     padding: 5px;
  }
@@ -97,6 +97,9 @@ article div div{
     width: 160px;
     /*border: black solid 5px;*/
     margin: 5px;
+    
+
+    
 }
 
 article div div img {
@@ -107,11 +110,13 @@ article div div  p {
     font-weight:500;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80%;
+    color: white;
+    display: none;
 }
 article div{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: space-evenly;
 }
 
@@ -124,4 +129,16 @@ article div{
     margin-top:10px;
     margin-left: 95%;
     cursor: pointer;
+}
+
+.sub-anime-links{
+    display: none;
+    position: absolute;/*for the list to not push the main list upward*/
+    margin-left: -15px;
+    background-color:#202124 ;
+}
+.sub-anime-links li{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px 15px 0px 15px;
 }
